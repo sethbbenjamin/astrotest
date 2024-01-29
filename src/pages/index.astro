@@ -17,5 +17,10 @@ import Footer from "../components/Footer.astro";
     <h1>SB - An Astro Blog</h1>
     <p>The contents of this site are automagically managed using GIT tech.</p>
     <Footer />
+    <script>
+      document.querySelector(".hamburger").addEventListener("click", () => {
+        document.querySelector(".nav-links").classList.toggle("expanded");
+      });
+    </script>
   </body>
 </html>
