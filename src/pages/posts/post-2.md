@@ -1,7 +1,8 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "POST 2"
 pubDate: 2022-07-01
-description: "This is the first post of my new Astro blog."
+description: "Second Postaroo"
 author: "Astro Learner"
 image:
   url: "https://docs.astro.build/assets/full-logo-light.png"
